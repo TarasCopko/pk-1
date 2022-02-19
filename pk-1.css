@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+html , body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+ul , li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none ;
+    color: black;
+
+}
+h2 , p{
+    margin: 0;
+
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.preview{
+    background: url(/preview.png) center no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.link{
+    font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF
+}
+.link-border{
+border:2px solid #FFFFFF;
+padding: 7px 15px;
+border-radius: 20px;
+margin-left: 15px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:  30px;
+    margin-bottom: 125px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.preview-content{
+    text-align: center;
+}
+.preview-title{
+    font-weight: bold;
+font-size: 52px;
+line-height: 63px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+width: 508px;
+margin-bottom: 36px;
+margin: 0 auto;
+}
+.preview-text{
+    font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+margin-bottom: 33px;
+
+}
+.button{
+    font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+background: #FF4E50;
+padding: 10px 15px;
+border: 1px solid transparent;
+border-radius: 23px;
+cursor: pointer;
+}
+.team{
+    padding: 64px 0 72px 0;
+
+}
+.team-iteam{
+    text-align: center;
+
+}
+.team-avatar{
+    
+height: 120px;
+width: 120px;
+display: inline-block;
+position: relative;
+}
+.team-icom{
+    font-weight: bold;
+font-size: 22px;
+text-align: center;
+color: #333333;
+margin-bottom: 35px;
+
+}
+.button-border{
+    background: #FFFFFF;
+border: 2px solid #FF4E50;
+box-sizing: border-box;
+color: #FF4E50;
+padding: 11px 33px;
+margin-top: 37px;
+text-align: center;
+}
+.team{
+    padding: 64px 0 72px 0;
+
+}
+.team-iteam{
+    text-align: center;
+
+}
+.team-avatar{
+    
+height: 120px;
+width: 120px;
+display: inline-block;
+position: relative;
+}
+.team-icom{
+    font-weight: bold;
+font-size: 22px;
+text-align: center;
+color: #333333;
+margin-bottom: 35px;
+
+}
